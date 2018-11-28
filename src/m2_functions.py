@@ -21,6 +21,8 @@ import rosegraphics as rg
 
 
 def main():
+    movement('black', 1)
+
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -52,7 +54,7 @@ def hypo(a, b):
 
 
 ###############################################################################
-# TODO: 4a.  Define a function immediately below this _TODO_.
+# DONE: 4a.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
 #     -- a positive integer that represents the thickness of a Pen.
@@ -73,7 +75,21 @@ def hypo(a, b):
 #     d. Tells the TurtleWindow to wait until the mouse is clicked.
 #
 #   You may name the function and its parameters whatever you wish.
-window = rg.SimpleTurtle(window)
+
+
+def movement(color,thickness):
+    window = rg.TurtleWindow()
+    turtleone = rg.SimpleTurtle()
+    turtleone.pen = rg.Pen('green',thickness)
+    turtletwo = rg.SimpleTurtle()
+    turtletwo.pen = rg.Pen(color,5)
+    turtleone.forward(100)
+    turtletwo.backward(100)
+    window.close_on_mouse_click()
+
+
+
+
 
 
 
