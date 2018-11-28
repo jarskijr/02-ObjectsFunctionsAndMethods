@@ -110,6 +110,7 @@ def draw_circles(point):
 #   then the circles should have radii:  15  30  45  60  75 ..., respectively,
 #   just as in   draw_circles.  But if that parameter is given the value 3,
 #   then the circles should have radii:  3  6  9  12  15  18 ..., respectively.
+# You may keep point as a parameter as well.
 #
 # TODO: 3b.
 #   In   main  at the place indicated, comment-out the two existing calls
