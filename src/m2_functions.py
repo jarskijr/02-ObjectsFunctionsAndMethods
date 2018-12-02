@@ -94,7 +94,7 @@ def movement(color,thickness):
 
 
 #
-# TODO: 4b.  In main, CALL your function at least TWICE (with different values
+# DONE: 4b.  In main, CALL your function at least TWICE (with different values
 #   for the arguments) to test whether you defined the function correctly.
 #
 # NEW: call the function once, comment it out, then call it again with different values.
